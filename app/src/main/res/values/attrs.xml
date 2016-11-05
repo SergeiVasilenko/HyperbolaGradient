@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="typeface" format="enum">
+		<enum name="RobotoBlack" value="0"/>
+		<enum name="RobotoBold" value="1"/>
+		<enum name="RobotoLight" value="2"/>
+		<enum name="RobotoMedium" value="3"/>
+		<enum name="RobotoRegular" value="4"/>
+		<enum name="RobotoThin" value="5"/>
+	</attr>
+
+	<declare-styleable name="ExtendedTextView">
+		<attr name="typeface"/>
+	</declare-styleable>
+
+</resources>

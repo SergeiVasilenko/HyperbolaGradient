@@ -6,7 +6,12 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:orientation="vertical"
-		tools:context="pro.inline.smoothgradient.demo.MainActivity">
+		tools:context="com.sergeivasilenko.smoothgradient.demo.ui.MainActivity">
+
+	<android.support.v7.widget.RecyclerView
+			android:id="@+id/recyclerView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
 
 	<TextView
 			android:layout_width="wrap_content"
@@ -17,15 +22,15 @@
 			android:layout_width="match_parent"
 			android:layout_height="100dp"/>-->
 
-	<pro.inline.smoothgradient.demo.CanvasLineSmoothGradientView
+	<com.sergeivasilenko.smoothgradient.demo.view.CanvasLineSmoothGradientView
 			android:layout_width="match_parent"
 			android:layout_height="100dp"/>
 
-	<pro.inline.smoothgradient.demo.CanvasPictureSmoothGradientView
+	<com.sergeivasilenko.smoothgradient.demo.view.CanvasPictureSmoothGradientView
 			android:layout_width="match_parent"
 			android:layout_height="100dp"/>
 
-	<pro.inline.smoothgradient.demo.ArraySmoothGradientView
+	<com.sergeivasilenko.smoothgradient.demo.view.BitmapGradientView
 			android:layout_width="match_parent"
 			android:layout_height="100dp"/>
 
