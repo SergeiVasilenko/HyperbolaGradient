@@ -1,4 +1,4 @@
-HyperboalGradient
+HyperbolaGradient
 =======
 
 HyperboalGradientDrawable draws hyperbola like form gradient, which described at [material design specification][1] in section "Text protection".
