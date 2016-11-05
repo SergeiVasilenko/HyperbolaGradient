@@ -21,7 +21,6 @@ import android.graphics.ColorFilter;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
 
 /**
  * Simple example how to draw hyperbola gradient. This approach works twice faster than drawing lines through Canvas
@@ -50,7 +49,7 @@ public class HyperbolaGradientDrawable extends Drawable {
 	}
 
 	@Override
-	public void draw(@NonNull Canvas canvas) {
+	public void draw(Canvas canvas) {
 //		long startDrawing = System.nanoTime();
 		Rect bounds = getBounds();
 		if (mColors.length != bounds.height()) {
