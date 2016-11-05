@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		xmlns:tools="http://schemas.android.com/tools"
 		android:id="@+id/activity_main"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:paddingLeft="@dimen/activity_horizontal_margin"
-		android:paddingRight="@dimen/activity_horizontal_margin"
-		android:paddingTop="@dimen/activity_vertical_margin"
-		android:paddingBottom="@dimen/activity_vertical_margin"
-		tools:context="pro.inline.smoothgradient.MainActivity">
+		android:orientation="vertical"
+		tools:context="pro.inline.smoothgradient.demo.MainActivity">
 
 	<TextView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Hello World!"/>
-</RelativeLayout>
+			android:text="Different ways to draw smooth gradient"/>
+
+	<!--<pro.inline.smoothgradient.demo.CanvasPointSmoothGradientView
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>-->
+
+	<pro.inline.smoothgradient.demo.CanvasLineSmoothGradientView
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>
+
+	<pro.inline.smoothgradient.demo.CanvasPictureSmoothGradientView
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>
+
+	<pro.inline.smoothgradient.demo.ArraySmoothGradientView
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>
+
+	<Button
+			android:id="@+id/invalidateButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Invalidate"/>
+
+</LinearLayout>

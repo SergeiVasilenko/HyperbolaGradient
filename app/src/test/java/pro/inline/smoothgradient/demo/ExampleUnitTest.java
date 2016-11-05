@@ -1,4 +1,4 @@
-package pro.inline.smoothgradient;
+package pro.inline.smoothgradient.demo;
 
 import org.junit.Test;
 

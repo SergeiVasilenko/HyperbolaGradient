@@ -1,4 +1,4 @@
-package pro.inline.smoothgradient;
+package pro.inline.smoothgradient.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
