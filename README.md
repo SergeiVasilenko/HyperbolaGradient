@@ -1,7 +1,7 @@
 HyperbolaGradient
 =======
 
-HyperboalGradientDrawable draws hyperbola like form gradient, which described at [material design specification][1] in section "Text protection".
+HyperboalGradientDrawable for Android draws hyperbola like form gradient, which described at [material design specification][1] in section "Text protection".
 
 ![](https://material-design.storage.googleapis.com/publish/material_v_9/0B7tHpXMphfIHSzM4ZmFaekhuOUE/style_imagery_integration_text7.png)
 
