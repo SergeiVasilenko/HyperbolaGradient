@@ -19,10 +19,10 @@ public class RenderingType {
 
 	static {
 		SparseArray<RenderingType> types = new SparseArray<>();
-		types.append(TYPE_CANVAS_POINT, new RenderingType("Canvas point", TYPE_CANVAS_POINT));
+		types.append(TYPE_CANVAS_POINT, new RenderingType("Canvas point (very slow)", TYPE_CANVAS_POINT));
 		types.append(TYPE_CANVAS_LINE, new RenderingType("Canvas line", TYPE_CANVAS_LINE));
 		types.append(TYPE_CANVAS_PICTURE, new RenderingType("Canvas picture", TYPE_CANVAS_PICTURE));
-		types.append(TYPE_CANVAS_BITMAP, new RenderingType("Canvas bitmap", TYPE_CANVAS_BITMAP));
+		types.append(TYPE_CANVAS_BITMAP, new RenderingType("Canvas bitmap (HyperbolaGradient library)", TYPE_CANVAS_BITMAP));
 		sTypes = types;
 	}
 
