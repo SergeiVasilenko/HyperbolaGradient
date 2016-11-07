@@ -60,7 +60,7 @@ public class HyperbolaGradientDrawable extends Drawable {
 				y = ((float) i) / bounds.height();
 				// this function gives approximately 0.5 of the bearing alpha at 3/10ths closed to the darker end
 				alphaRelative = 3 / (4 * (y + 0.5f)) - 0.5f;
-				alpha = (int) (alphaRelative * mAlpha * 255);
+				alpha = (int) (alphaRelative * mAlpha);
 				mColors[i] = alpha << 24 | mColor;
 			}
 			mBmp = Bitmap.createBitmap(mColors, 1, bounds.height(), Bitmap.Config.ARGB_8888);
