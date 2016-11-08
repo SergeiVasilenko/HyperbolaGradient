@@ -26,10 +26,7 @@ import android.graphics.drawable.Drawable;
  * Simple example how to draw hyperbola gradient. This approach works twice faster than drawing lines through Canvas
  * at first drawing and 20 times at other drawings. Also this approach gets better quality of gradient than other.
  */
-
 public class HyperbolaGradientDrawable extends Drawable {
-
-	private static final String TAG = "HyperbolaGradient";
 
 	private static final int ALPHA_DEFAULT = (int) (0.6f * 255);
 
@@ -39,18 +36,8 @@ public class HyperbolaGradientDrawable extends Drawable {
 	private int[] mColors  = new int[0];
 	private Bitmap mBmp;
 
-	public HyperbolaGradientDrawable() {
-	}
-
-	@Override
-	protected void onBoundsChange(Rect bounds) {
-		super.onBoundsChange(bounds);
-
-	}
-
 	@Override
 	public void draw(Canvas canvas) {
-//		long startDrawing = System.nanoTime();
 		Rect bounds = getBounds();
 		if (mColors.length != bounds.height()) {
 			int alpha;
@@ -67,7 +54,6 @@ public class HyperbolaGradientDrawable extends Drawable {
 			mBmpRect.set(0, 0, 1, bounds.height());
 		}
 		canvas.drawBitmap(mBmp, mBmpRect, bounds, null);
-//		Log.v(TAG, "t: " + (System.nanoTime() - startDrawing) + "ns - drawing bitmap");
 	}
 
 	public void setColor(int color) {
