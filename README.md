@@ -5,15 +5,6 @@ HyperboalGradientDrawable for Android draws hyperboloid gradient, which describe
 
 ![](https://material-design.storage.googleapis.com/publish/material_v_9/0B7tHpXMphfIHSzM4ZmFaekhuOUE/style_imagery_integration_text7.png)
 
-Download
---------
-
-Grab via Gradle:
-```groovy
-compile 'todo.todo.todo:todo:0.9'
-```
-
-
 License
 --------
 
