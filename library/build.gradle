@@ -17,7 +17,7 @@ ext {
     siteUrl = 'https://github.com/SergeiVasilenko/HyperbolaGradient'
     gitUrl = 'https://github.com/SergeiVasilenko/HyperbolaGradient.git'
 
-    libraryVersion = '0.9'
+    libraryVersion = '0.9.1'
 
     developerId = 'sergeivasilenko'
     developerName = 'Sergei Vasilenko'
@@ -30,10 +30,10 @@ ext {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 8
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
